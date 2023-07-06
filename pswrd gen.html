@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator</title>
+    <link rel="stylesheet" href="pswrd gen.css">
+ 
+</head>
+
+<body>
+    
+    <div class="main">
+    <div class="box">
+        <span id="passbox"></span><br>
+        <div class="main1">
+      <span>password length</span>  <input type="number" id="num" max="30" min="3" value="10"><br>
+
+      <span>contain uppercase</span>  <input type="checkbox" id="uppercase" checked/><br>
+
+      <span>contain lowercase</span>  <input type="checkbox" id="lowercase"><br>
+
+      <span>contain numbers</span>  <input type="checkbox" id="digits"><br>
+
+      <span>contain symbols</span>  <input type="checkbox" id="symbols"><br>
+    </div>
+      <button id="btn">generate password</button>
+    
+    </div>
+</div>
+
+<!-- <input type="number" value="" id="no1"><br>
+<input type="number" value="" id="no2"><br>
+<span id="res"></span>
+<input type="submit" onclick="return result()"> -->
+
+    <script src="pswrd gen.js"></script>
+</body>
+</html>
