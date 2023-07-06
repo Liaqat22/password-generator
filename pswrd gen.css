@@ -45,7 +45,7 @@ body{
     flex-direction: column;
     margin: 136px;
     background-color: rgb(77, 31, 31);
-    
+    color : white;
     font-size: large;
 }
 button{
